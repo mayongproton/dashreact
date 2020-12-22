@@ -1,0 +1,29 @@
+.mod__app {
+    width: 100%;
+}
+.header__area {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: #8458b3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+.content__area {
+    display: flex;
+}
+.sidebar__area {
+    position: fixed;
+    top: 80px;
+    background: #494d5f;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+}
+.main__wrapper {
+    flex: 4;
+    margin-left: 15%;
+    margin-top: 80px;
+}

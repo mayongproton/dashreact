@@ -1,0 +1,9 @@
+.show__loggedinuser {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.show__loggedinuser label {
+    color: white;
+    margin: 0 10px;
+}
